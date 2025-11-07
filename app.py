@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Carrega Imagem #
-img = cv2.imread(r'dog.jpg')
+img = cv2.imread(r'jaguar.png')
 
 # Passa parâmetros para a Lib #
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
